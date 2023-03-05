@@ -1,0 +1,166 @@
+:root{--primary-color: #2e2f42;
+   --branding-color:#404bbf;
+   --accent-color:#4D5AE5;
+   --invent-color:#ffffff;
+   --secondary-color:#434455;
+   --additional-color:#F4F4FD;
+   --rare-color:#e7e9fc;
+
+}
+body{
+    font-family: 'Roboto',sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+    
+}
+.list{
+    list-style-type: none;
+    
+}
+.link{
+    text-decoration: none;
+}
+/*Header*/
+.logo{
+    font-family:'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--accent-color);
+}
+.part{
+    color:var(--primary-color);
+    }
+    .nav-link{
+            font-weight: 500;
+             line-height: 1.5;
+            color: var(--primary-color);
+     }
+     .nav-link.current{
+        color:var(--branding-color);
+     }
+     .nav-link:hover,
+     .nav-link:focus{
+        color: var(--branding-color);
+     }
+     .contact-link{
+            line-height: 1.5;
+            font-style: normal;
+            color: var(--secondary-color);
+     }
+     .contact-link:hover,
+     .contact-link:focus{
+            color:var(--branding-color);
+         }
+         /*Hero*/
+         .hero{
+           background-color: var(--primary-color)  ;
+         }
+         .hero-title{
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 1.07;
+                text-align: center;
+                color: var(--invent-color);
+         }
+         .hero-button{
+                font-family: inherit;
+                font-weight: 500;
+                 line-height: 1.5;
+                 letter-spacing: 0.04em;
+                 background-color:var(--accent-color);
+                color: var(--invent-color);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                border: transparent;
+                border-radius: 4px;
+                text-align: center;
+                cursor: pointer;
+            }
+                .hero-button:hover,
+                .hero-button:focus{
+                    background-color: var(--branding-color);
+                }
+                /*Section-1*/
+         .visually-hidden {
+                 position: absolute;
+                 white-space: nowrap;
+                 width: 1px;
+                height: 1px;
+                 overflow: hidden;
+                 border: 0;
+                padding: 0;
+                 clip: rect(0 0 0 0);
+                 clip-path: inset(50%);
+                margin: -1px;
+                    }
+        .subtitle{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.2;
+                 
+        }
+    .text{
+             line-height: 1.5;
+            color: var(--secondary-color);
+         }
+         /*Section-2*/
+         .section-title{
+                font-size: 36px;
+                line-height: 1.11;
+                 text-align: center;
+                 text-transform: capitalize;
+                
+         }
+         /*Section-3*/
+         .team-section{
+            background-color: var(--additional-color);
+         }
+        .card-title{
+                 font-weight: 500;
+                 font-size: 20px;
+                line-height: 1.2;
+                 }
+    .card-text{
+    
+            line-height: 1.5;
+            color: var(--secondary-color);
+    }
+    .filter-button{
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    background: var(--additional-color);
+    border: 1px solid var(--rare-color);
+    border-radius: 4px;
+}
+ .filter-button:hover,
+  .filter-button:focus{
+    background-color: var(--branding-color);
+    color: var(--invent-color);
+  }
+  
+
+
+
+    .end-page{
+        background-color:var(--primary-color)
+    }
+    .footer-part{
+        color:var(--invent-color);
+    }
+    .footer-text{
+        line-height: 1.5;
+        color: var(--rare-color);
+    }
+    .description{   
+        line-height: 1.5;
+        color:var(--additional-color);
+    }
