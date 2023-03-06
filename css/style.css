@@ -38,10 +38,9 @@ body{
     }
     .nav-link{
             font-weight: 500;
-             line-height: 1.5;
+            line-height: 1.5;
             color: var(--primary-color);
-            text-decoration: none;
-     }
+             }
      .nav-link.current{
         color:var(--branding-color);
      }
