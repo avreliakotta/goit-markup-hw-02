@@ -1,4 +1,5 @@
-:root{--primary-color: #2e2f42;
+:root{
+    --primary-color: #2e2f42;
    --branding-color:#404bbf;
    --accent-color:#4D5AE5;
    --invent-color:#ffffff;
@@ -12,7 +13,7 @@ body{
      font-weight: 400;
      font-size: 16px;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
+    color: var(--secondary-color)
     
 }
 .list{
@@ -47,9 +48,11 @@ body{
      .nav-link:focus{
         color: var(--branding-color);
      }
+     .contact{
+        font-style: normal;
+     }
      .contact-link{
             line-height: 1.5;
-            font-style: normal;
             color: var(--secondary-color);
      }
      .contact-link:hover,
@@ -64,12 +67,14 @@ body{
                 font-weight: 700;
                 font-size: 56px;
                 line-height: 1.07;
+                letter-spacing: 0.02em;
                 text-align: center;
                 color: var(--invent-color);
          }
          .hero-button{
                 font-family: inherit;
                 font-weight: 500;
+                font-size: 16px;
                  line-height: 1.5;
                  letter-spacing: 0.04em;
                  background-color:var(--accent-color);
@@ -85,34 +90,26 @@ body{
                     background-color: var(--branding-color);
                 }
                 /*Section-1*/
-         .visually-hidden {
-                 position: absolute;
-                 white-space: nowrap;
-                 width: 1px;
-                height: 1px;
-                 overflow: hidden;
-                 border: 0;
-                padding: 0;
-                 clip: rect(0 0 0 0);
-                 clip-path: inset(50%);
-                margin: -1px;
-                    }
+        
         .subtitle{
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 1.2;
+                letter-spacing: 0.02em;
+                color: var(--primary-color);
                  
         }
     .text{
              line-height: 1.5;
-            color: var(--secondary-color);
          }
          /*Section-2*/
          .section-title{
                 font-size: 36px;
                 line-height: 1.11;
-                 text-align: center;
-                 text-transform: capitalize;
+                letter-spacing: 0.02em;
+                color: var(--primary-color);
+                text-align: center;
+                text-transform: capitalize;
                 
          }
          /*Section-3*/
@@ -120,15 +117,15 @@ body{
             background-color: var(--additional-color);
          }
         .card-title{
-                 font-weight: 500;
-                 font-size: 20px;
+                font-weight: 500;
+                font-size: 20px;
                 line-height: 1.2;
+                letter-spacing: 0.02em;
+                color: var(--primary-color);
                  }
     .card-text{
-    
-            line-height: 1.5;
-            color: var(--secondary-color);
-    }
+     line-height: 1.5;
+         }
     .filter-button{
     font-family:inherit;
     font-weight: 500;
@@ -140,6 +137,7 @@ body{
     background: var(--additional-color);
     border: 1px solid var(--rare-color);
     border-radius: 4px;
+    cursor: pointer;
 }
  .filter-button:hover,
   .filter-button:focus{
@@ -154,7 +152,7 @@ body{
         background-color:var(--primary-color)
     }
     .footer-part{
-        color:var(--invent-color);
+        color:var(--additional-color);
     }
     .footer-text{
         line-height: 1.5;
