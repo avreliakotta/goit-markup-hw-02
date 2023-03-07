@@ -1,12 +1,11 @@
 :root{
-    --primary-color:#2E2F42;
-   --branding-color:#404bbf;
-   --accent-color:#4D5AE5;
-   --invent-color:#ffffff;
-   --secondary-color:#434455;
-   --additional-color:#F4F4FD;
-   --rare-color:#e7e9fc;
-
+    --primary-color: #2e2f42;
+   --branding-color: #404bbf;
+   --accent-color: #4d5ae5;
+   --invent-color: #ffffff;
+   --secondary-color: #434455;
+   --additional-color: #f4f4fd;
+   --rare-color: #e7e9fc;
 }
 body{
     font-family: 'Roboto',sans-serif;
@@ -14,8 +13,7 @@ body{
      font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--secondary-color)
-    
-}
+    }
 .list{
     list-style-type: none;
     
@@ -31,10 +29,10 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 .part{
-    color:var(--primary-color);
+    color: var(--primary-color);
     }
     .nav-link{
             font-weight: 500;
@@ -151,6 +149,16 @@ body{
 
     .end-page{
         background-color:var(--primary-color)
+    }
+    .footer-logo{
+    font-family: 'Raleway', sans-serif ;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--accent-color);
     }
     .footer-part{
         color:var(--additional-color);
